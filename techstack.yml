@@ -2,11 +2,11 @@ repo_name: BenHerbst/vue-transitions
 report_id: d219f071518bdc5609c0548c49dfdc22
 version: 0.1
 repo_type: Public
-timestamp: '2023-12-18T21:52:00+00:00'
+timestamp: '2024-02-29T19:06:21+00:00'
 requested_by: MorevM
 provider: github
 branch: master
-detected_tools_count: 26
+detected_tools_count: 28
 tools:
 - name: JavaScript
   description: Lightweight, interpreted, object-oriented language with first-class
@@ -17,6 +17,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/BenHerbst/vue-transitions
   detection_source: Repo Metadata
 - name: TypeScript
   description: A superset of JavaScript that compiles to clean JavaScript output
@@ -27,6 +28,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/BenHerbst/vue-transitions
   detection_source: Repo Metadata
 - name: Sass
   description: Syntactically Awesome Style Sheets
@@ -37,6 +39,7 @@ tools:
   category: Languages & Frameworks
   sub_category: CSS Pre-processors / Extensions
   image_url: https://img.stackshare.io/service/1171/jCR2zNJV.png
+  detection_source_url: https://github.com/BenHerbst/vue-transitions/blob/master/package.json
   detection_source: package.json
   last_updated_by: MorevM
   last_updated_on: 2022-03-18 16:25:26.000000000 Z
@@ -77,6 +80,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Review
   image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/BenHerbst/vue-transitions/blob/master/package.json
   detection_source: package.json
   last_updated_by: MorevM
   last_updated_on: 2022-03-18 16:25:26.000000000 Z
@@ -88,6 +92,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/BenHerbst/vue-transitions
   detection_source: Repo Metadata
 - name: GitHub Actions
   description: Automate your workflow from idea to production
@@ -97,6 +102,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/BenHerbst/vue-transitions/blob/master/.github/workflows/build.yaml
   detection_source: ".github/workflows/build.yaml"
   last_updated_by: MorevM
   last_updated_on: 2022-03-18 16:25:26.000000000 Z
@@ -137,6 +143,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: JS Build Tools / JS Task Runners
   image_url: https://img.stackshare.io/service/21547/default_1aeac791cde11ff66cc0b20dcc6144eeb185c905.png
+  detection_source_url: https://github.com/BenHerbst/vue-transitions/blob/master/package.json
   detection_source: package.json
   last_updated_by: MorevM
   last_updated_on: 2022-03-18 16:25:26.000000000 Z
@@ -148,6 +155,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/5848/44mC-kJ3.jpg
+  detection_source_url: https://github.com/BenHerbst/vue-transitions/blob/master/yarn.lock
   detection_source: yarn.lock
   last_updated_by: MorevM
   last_updated_on: 2022-03-18 16:25:26.000000000 Z
@@ -159,6 +167,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/BenHerbst/vue-transitions/blob/master/package.json
   detection_source: package.json
   last_updated_by: MorevM
   last_updated_on: 2022-03-18 16:25:26.000000000 Z
@@ -171,12 +180,14 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/BenHerbst/vue-transitions
   detection_source: Repo Metadata
 - name: husky
   website_url: https://github.com/typicode/husky
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/9527/5502029.jpeg
+  detection_source_url: https://github.com/BenHerbst/vue-transitions/blob/master/package.json
   detection_source: package.json
   last_updated_by: MorevM
   last_updated_on: 2022-11-20 08:59:45.000000000 Z
@@ -185,6 +196,7 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/10577/11071.jpeg
+  detection_source_url: https://github.com/BenHerbst/vue-transitions/blob/master/package.json
   detection_source: package.json
   last_updated_by: MorevM
   last_updated_on: 2022-11-20 09:30:17.000000000 Z
@@ -258,6 +270,34 @@ tools:
   detection_source: builders/vue2-builder/package.json
   last_updated_by: MorevM
   last_updated_on: 2022-11-20 09:36:24.000000000 Z
+- name: husky
+  description: Prevents bad commit or push
+  package_url: https://www.npmjs.com/husky
+  version: 8.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15831/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/BenHerbst/vue-transitions/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: MorevM
+  last_updated_on: 2022-11-20 08:59:45.000000000 Z
+- name: lint-staged
+  description: Lint files staged by git
+  package_url: https://www.npmjs.com/lint-staged
+  version: 13.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15868/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: https://github.com/BenHerbst/vue-transitions/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: MorevM
+  last_updated_on: 2022-11-20 09:30:17.000000000 Z
 - name: release-it
   description: CLI release tool for Git repos and npm packages
   package_url: https://www.npmjs.com/release-it
@@ -300,6 +340,13 @@ tools:
   last_updated_by: MorevM
   last_updated_on: 2022-11-20 08:59:45.000000000 Z
   vulnerabilities:
+  - name: Vite dev server option `server.fs.deny` can be bypassed when hosted on case-insensitive
+      filesystem
+    cve_id: CVE-2024-23331
+    cve_url: https://github.com/advisories/GHSA-c24v-8rfc-w8vw
+    detected_date: Jan 20
+    severity: high
+    first_patched: 3.2.8
   - name: Vite Server Options (server.fs.deny) can be bypassed using double forward-slash
       (//)
     cve_id: CVE-2023-34092
